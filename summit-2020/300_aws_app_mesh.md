@@ -10,8 +10,8 @@
     aws iam attach-role-policy --role-name $ROLE_NAME --policy-arn arn:aws:iam::aws:policy/AWSAppMeshFullAccess
     ```
      * IRSA(IAM Role for Service Account)을 사용하면, 더 정교한 권한 설정을 할 수 있습니다.
-     https://eksworkshop.com/advanced/320_servicemesh_with_appmesh/create_app_mesh_components/create_injector_controller/
-    
+     [https://eksworkshop.com/advanced/320_servicemesh_with_appmesh/create_app_mesh_components/create_injector_controller/
+](https://eksworkshop.com/advanced/320_servicemesh_with_appmesh/create_app_mesh_components/create_injector_controller/)    
    * X-Ray를 위한 Policy 추가
     
     ```bash
@@ -26,7 +26,7 @@
 
    * Container Insights를 활성화 합니다. 
     (`Seoul(ap-northeast-2)` 리전이 아닌 경우, 리전코드를 변경합니다.)
-  ---
+
     ```bash
     curl https://raw.githubusercontent.com/aws-samples/amazon-cloudwatch-container-insights/master/k8s-yaml-templates/quickstart/cwagent-fluentd-quickstart.yaml | sed "s/{{cluster_name}}/eksworkshop-eksctl/;s/{{region_name}}/ap-northeast-2/" | kubectl apply -f -
     ```

@@ -8,7 +8,7 @@ Gremlin은 Chaos Engineering 도구를 SaaS 서비스로 제공하는 회사이�
 
 * 아래 링크의 가이드에 따라, Amazon EKS에서 Gremlin을 사용해서 Chaos Engineering 실험을 할 수 있습니다.
 
-* https://www.gremlin.com/community/tutorials/how-to-install-and-use-gremlin-with-eks/
+* [https://www.gremlin.com/community/tutorials/how-to-install-and-use-gremlin-with-eks/](https://www.gremlin.com/community/tutorials/how-to-install-and-use-gremlin-with-eks/)
 
 * 가이드에는 아래와 같은 사전 조건과 작업 항목이 정리되어 있습니다.
   

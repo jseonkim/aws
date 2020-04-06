@@ -8,7 +8,7 @@ Litmus는 Kubernetes 환경에서 Chaos Engineering을 연습하고 실행할 �
 
 * 아래 링크의 가이드에 따라, Amazon EKS에서 Litmus를 사용해서 Chaos Engineering 실험을 할 수 있습니다.
 
-* https://docs.litmuschaos.io/docs/getstarted/
+* [https://docs.litmuschaos.io/docs/getstarted/](https://docs.litmuschaos.io/docs/getstarted/)
 
   * 사전 조건       
     * Kubernetes 1.11 이상
