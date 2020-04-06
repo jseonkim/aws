@@ -11,15 +11,12 @@ eksctl를 사용해서 클러스터를 생성합니다.
 ### eksctl 관련 참조 문서
 
 * eksctl 공식 홈페이지
-
   * [https://eksctl.io/](https://eksctl.io/)
   
 * eksctl github
-
   * [https://github.com/weaveworks/eksctl](https://github.com/weaveworks/eksctl)
   
 * AWS 개발자가이드 중 eksctl 시작하기
-
   * [https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/getting-started-eksctl.html](https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/getting-started-eksctl.html)
 
 ### 1.1. Cloud9 workspace 생성
@@ -29,39 +26,31 @@ eksctl를 사용해서 클러스터를 생성합니다.
 <img width="1437" alt="Screen Shot 2020-04-03 at 10 14 11 AM" src="https://user-images.githubusercontent.com/6407492/78314113-eb818e00-7593-11ea-85b3-64535aaa0ea0.png">
   
 * 아래 링크로 이동해서 Cloud9 workspace를 생성할 준비를 합니다.
-
   * 이번 실습에서는 `Seoul(ap-northeast-2)` 리전에서 Cloud9 workspace를 생성합니다.
   * [https://ap-northeast-2.console.aws.amazon.com/cloud9/home?region=ap-northeast-2](https://ap-northeast-2.console.aws.amazon.com/cloud9/home?region=ap-northeast-2)
   
 * Cloud9 workspace를 생성합니다.
-
   * [https://eksworkshop.com/020_prerequisites/workspace/](https://eksworkshop.com/020_prerequisites/workspace/)
   
 * Kubernetes Tools를 설치합니다.
-
   * [https://eksworkshop.com/020_prerequisites/k8stools/](https://eksworkshop.com/020_prerequisites/k8stools/)
   
 * Cloud9 workspace를 위한 IAM Role을 생성합니다.
-
   * [https://eksworkshop.com/020_prerequisites/iamrole/](https://eksworkshop.com/020_prerequisites/iamrole/)
   
 * 생성한 IAM Role을 Cloud9 workspace EC2 인스턴스에 지정합니다.
-
   * [https://eksworkshop.com/020_prerequisites/ec2instance/](https://eksworkshop.com/020_prerequisites/ec2instance/)
   
 * Cloud9 workspace를 위한 IAM 설정을 변경합니다.
-
   * [https://eksworkshop.com/020_prerequisites/workspaceiam/](https://eksworkshop.com/020_prerequisites/workspaceiam/)
   
   
 ### 1.2. EKS 클러스터 생성  
 
 * 클러스터 생성 툴인 eksctl를 설치합니다.
-
   * [https://eksworkshop.com/030_eksctl/prerequisites/](https://eksworkshop.com/030_eksctl/prerequisites/)
   
 * eksctl를 사용해서 EKS 클러스터를 생성합니다. (약 15분 소요)
-
   * 클러스터 이름 : `eksworkshop-eksctl`  
   ---
   ```bash
@@ -77,7 +66,6 @@ eksctl를 사용해서 클러스터를 생성합니다.
   ```
   
 * Node IAM Role Name을 Export해서 `.bash_profile`에 추가합니다. 
-
   * Node IAM Role에 정책(Policy)을 추가할 때, 아래 설정이 사용됩니다.  
   
   ```bash
